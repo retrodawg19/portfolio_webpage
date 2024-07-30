@@ -1,0 +1,148 @@
+body {
+  color: white;
+  background-color: rgb(3, 3, 58);
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: rgb(7, 17, 107);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(147, 71, 189);
+  font-size: 1.02rem;
+}
+.left {
+  font-size: 2rem;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0px;
+  align-items: center;
+}
+.first > div {
+  width: 30%;
+}
+.first .rightsection {
+  background-color: rgb(3, 3, 58);
+}
+.rightsection img {
+  width: 80%;
+  height: 100%;
+  margin: 30px;
+}
+.leftsection {
+  font-size: 3rem;
+}
+
+.purple {
+  color: rgb(146, 63, 224);
+}
+#element {
+  color: rgb(146, 63, 224);
+}
+
+.textgrey {
+  color: grey;
+  margin: 90px;
+}
+.secondsection h1 {
+  margin-left: 90px;
+  height: 8vh;
+}
+hr {
+  margin: 30px 60px;
+  color: grey;
+}
+.secondsection .box {
+  height: 2px;
+  width: 80vw;
+  margin: 56px 0px;
+  background: white;
+  margin-left: 110px;
+  margin-top: 60px;
+  display: flex;
+}
+.secondsection .vertical {
+  height: 96px;
+  width: 2px;
+  background: white;
+  margin: 0px 150px;
+}
+.secondsection {
+  height: 80vh;
+}
+
+.vertical-desc {
+  color: grey;
+  width: 200px;
+  font-size: 12px;
+}
+.peters {
+  width: 30px;
+  position: relative;
+  top: -30px;
+  left: -9px;
+}
+.boston {
+  width: 40px;
+  position: relative;
+  top: -25px;
+  left: -12px;
+}
+.cu {
+  width: 20px;
+  position: relative;
+  top: -40px;
+  left: -9px;
+}
+.dev {
+  width: 23px;
+  position: relative;
+  top: -30px;
+  left: -9px;
+}
+.vertical-text {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 20px;
+}
+.vertical-desc {
+  position: relative;
+  top: 80px;
+}
+footer {
+  background-color: rgb(7, 17, 107);
+  position: relative;
+  top: 150px;
+  height: 250px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 23px;
+}
+.flex ul {
+  list-style: none;
+}
